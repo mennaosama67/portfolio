@@ -1,0 +1,36 @@
+.about-header {
+  color: var(--black);
+  font-size: 4rem;
+  text-align: center;
+}
+.about-content {
+  overflow-y: hidden;
+ 
+  width: 80%;
+  margin: 0 auto;
+}
+.personal-info {
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.info i {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.info span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.info span span {
+  font-size: 2rem;
+  color: var(--black);
+  font-weight: 700;
+}
+.about-content .btn {
+  background-color: var(--black);
+  margin-top: 2rem;
+}
+.about-content .btn:hover {
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,124 @@
+#home {
+  background: linear-gradient(var(--dark), var(--dark)),
+    url("../images/intro-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center 90%;
+  height: 100vh;
+  font-size: 4.5rem;
+ 
+}
+
+.home-wrapper {
+  padding-top: 15%;
+  padding-left: 5%;
+}
+.home-header {
+  position: relative;
+}
+.home-header h1 {
+  font-size: 4.5rem;
+
+}
+.home-header h3::before {
+  content: "";
+  position: absolute;
+  width: 4.5rem;
+  height: 2px;
+  background-color: var(--primary-color);
+  left: -8%;
+  top: 1rem;
+}
+.social {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 18rem;
+    position: absolute;
+    bottom:-7rem;
+    right: 3rem;
+    width: 135px;
+}
+.social li{
+    position: relative;
+    height: 3.6rem;
+    padding-left: 0.4rem;
+    display: list-item;
+}
+.social i{
+    font-size: 2rem;
+    right: 0;
+    position: absolute;
+    top: 0;
+    line-height: 3.6rem;
+    transition: all 0.5s ease-in-out;
+}
+.social span{
+    font-family: var(--sub-font);
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    position: absolute;
+    top: 0;
+    line-height: 3.6rem;
+   visibility: hidden;
+   transition: all 0.5s ease-in-out;
+   transform: scale(0);
+    transform-origin: 100% 50%;
+}
+.social li:hover span{
+visibility: visible;
+transform: scale(1);
+}
+
+
+@media (max-width: 580px) {
+  .home-wrapper {
+    padding-top: 30%;
+  }
+  .home-header h1 {
+    font-size: 80%;
+  }
+  .home-header h3 {
+    padding-left: 4.5rem;
+  }
+  .home-header h3::before {
+    left: 0;
+  }
+  .home-btns .btn {
+    margin-right: 1rem;
+  }
+  .home-btns {
+    margin: 2rem auto;
+  }
+  .social{
+      visibility: hidden;
+  }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .home-content{
+    margin-top: 9rem;
+  }
+  .home-header h1 {
+    font-size: 90%;
+  }
+  .home-header h3 {
+    padding-left: 2.3rem;
+  }
+  .home-btns{
+   margin-top: 4rem;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .home-btns {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1500px) {
+  .home-btns {
+    margin-top: 13rem;
+    margin-left: 4rem;
+  }
+}

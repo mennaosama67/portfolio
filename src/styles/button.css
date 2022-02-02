@@ -1,0 +1,19 @@
+.btn{
+    background-color: transparent;
+    color:var(--white) ;
+    border: 3px solid var(--white);
+    width: 250px;
+    padding: 15px 35px;
+    font-size: 1.5rem;
+    font-family: var(--sub-font);
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+    transition: all 0.4s ease-in-out;
+}

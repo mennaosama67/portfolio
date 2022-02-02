@@ -1,0 +1,40 @@
+#skills{
+    margin-top: 6rem;
+    padding:15rem 0 ;
+    background-color:#0a0809;
+    clip-path: polygon(0% 11.5%, 100% 0%, 100% 88%, 0% 100%);
+}
+#skills h1{
+    color: var(--white);
+    font-size: 3.4rem;
+}
+.my-skills{
+    width: 90%;
+ margin: 0 auto;
+ justify-content: space-between;
+}
+.skill{
+ width: 31%;
+    padding:1rem 2rem;
+    background-color: var(--dark);
+    border-radius: 0.7rem;
+    box-shadow: rgba(31, 30, 30, 0.19) 0px 10px 20px, rgba(36, 36, 36, 0.23) 0px 6px 6px;
+}
+.skill i{
+    font-size:4rem;
+    color: var(--primary-color);
+}
+
+.skill h2{
+color: var(--white);
+font-family: var(--sub-font);
+font-size: 2rem;
+font-weight: 700;
+}
+@media (max-width:730px){
+    .skill{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+}

@@ -1,0 +1,7 @@
+.wrapper{
+    height: min-content;
+    padding-top: 10rem ;
+       background: url('../images/2.jpg') no-repeat;
+       background-position: center;
+       background-size: cover;
+}

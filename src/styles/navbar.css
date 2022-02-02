@@ -1,0 +1,30 @@
+nav {
+  background-color: transparent;
+  font-family: var(--sub-font);
+}
+nav .navbar-nav .nav-item {
+  padding: 1rem 1rem;
+}
+#navbarNav {
+  margin-top: 0.5rem;
+}
+.navbar-brand span {
+  font-size: 2rem;
+  letter-spacing: 1.1rem;
+  font-family: 'Architects Daughter', cursive;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  letter-spacing: 0.2rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav .navbar-nav .nav-item .nav-link.active {
+  color: var(--primary-color);
+}
+.scrolling-active {
+  background-color: var(--black);
+}
