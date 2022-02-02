@@ -5,16 +5,16 @@ nav {
 nav .navbar-nav .nav-item {
   padding: 1rem 1rem;
 }
-nav button.navbar-toggler{
+nav button.navbar-toggler {
   margin-right: 4rem;
 }
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   font-size: 2.5rem;
 }
 .navbar-brand span {
   font-size: 2rem;
   letter-spacing: 1.1rem;
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
 }
 
 nav .navbar-nav .nav-item .nav-link {
