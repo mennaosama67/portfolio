@@ -17,7 +17,6 @@ nav button.navbar-toggler {
   letter-spacing: 1.1rem;
   font-family: "Architects Daughter", cursive;
 }
-
 nav .navbar-nav .nav-item .nav-link {
   letter-spacing: 0.2rem;
   color: var(--white);

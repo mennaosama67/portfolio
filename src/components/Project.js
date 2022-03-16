@@ -12,5 +12,4 @@ function Project({imageSrc,codeUrl,demoUrl,projectName}) {
   </div>
 </div>);
 }
-
 export default Project;
