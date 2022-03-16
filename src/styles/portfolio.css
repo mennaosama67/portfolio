@@ -1,12 +1,12 @@
 #portfolio {
   margin-top: 6rem;
+  padding-bottom: 2rem;
 }
 #portfolio h1 {
   font-size: 3.5rem;
 }
 .project {
   margin: 7rem auto 3rem auto;
-
   position: relative;
   overflow: hidden;
   color: var(--black);
@@ -68,4 +68,7 @@ h4 {
 }
 .project-caption .btn {
   width: 200px;
+}
+.project-caption h3{
+  color: var(--white)
 }
